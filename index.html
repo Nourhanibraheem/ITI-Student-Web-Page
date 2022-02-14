@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="frontend project G3">
+  <title>ITI STUDENTS</title>
+  <link href="CSS/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="CSS/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- start navBar-->
+  <div class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <h1 class="navbar-logo" href="#">ITI STUDENTS</h1>
+      </div>
+      <ul class="navbar-list">
+        <li class="item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+        <li class="item"><a class="nav-link" href="#about">ABOUT</a></li>
+        <li class="item"><a class="nav-link" href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navBar -->
+
+  <!-- start home section-->
+  <section class="home-section">
+    <div class="home">
+      <img class="home-img" src="IMG/avataaars.svg" alt="avatar-img">
+      <h2 class="heading">ITI STUDENTS</h2>
+      <div class="line">
+        <span>━━━━━<i class="fa fa-star"></i>━━━━━</span>
+      </div>
+      <h3 class="heading1">frontend technology project</h3>
+    </div>
+  </section>
+  <!-- end home section -->
+  <div class="clear"></div>
+  <!-- start portfolio section -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="portfolio">
+      <h2 class="heading2">PORTFOLIO</h2>
+      <div class="line">
+        <span>━━━━━<i class="fa fa-star"></i>━━━━━</span>
+      </div>
+      <div class="portfolio-images">
+        <img class="portfolio-img1" src="img/portfolio/cabin.png">
+        <img class="portfolio-img2" src="img/portfolio/cake.png">
+        <img class="portfolio-img3" src="img/portfolio/circus.png">
+      </div>
+      <div class="portfolio-images">
+        <img class="portfolio-img4" src="img/portfolio/game.png">
+        <img class="portfolio-img5" src="img/portfolio/safe.png">
+        <img class="portfolio-img6" src="img/portfolio/submarine.png">
+      </div>
+    </div>
+  </section>
+  <!-- end portfolio section -->
+  <div class="clear"></div>
+  <!-- start about-section -->
+  <section class="about-section" id="about">
+    <div class="about">
+      <h2 class="heading3">ABOUT</h2>
+      <div class="line">
+        <span>━━━━━<i class="fa fa-star"></i>━━━━━</span>
+      </div>
+      <div class="para-left">
+        <p class="p-left">
+          this template is a iti theme created by iti students.the complete source files including HTML, CSS, and
+          JavaScript as well as optional SASS stylesheets for easy customization.
+        </p>
+      </div>
+      <div class="para-right">
+        <p class="p-right">
+          You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email
+          address to the contact form to make it fully functional!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- end about-section -->
+  <div class="clear"></div>
+  <!-- start contact section -->
+  <section class="contact-section" id="contact">
+    <div class="contact">
+      <h2 class="heading4">CONTACT ME</h2>
+      <div class="line">
+        <span>━━━━━<i class="fa fa-star"></i>━━━━━</span>
+      </div>
+      <div class="form">
+        <form method="post" action="" enctype="multipart/form-data">
+
+          <div class="input-group">
+            <label for="name">Full name</label><br>
+            <input class="name input" id="name" type="text" name="fullname">
+            <i class="fa-solid fa-circle-exclamation icon"></i>
+            <p class="error">A name is required</p>
+          </div><br><br>
+          <div class="input-group" >
+            <label for="email">Email address</label><br>
+            <input class="email input" id="email" type="email" name="emailaddress">
+            <i class="fa-solid fa-circle-exclamation icon"></i>
+            <p class="error">An Email is required</p>
+            <p class="invalid-email">Please write valid email</p>
+          </div><br><br>
+          <div class="input-group">
+            <label for="phone">Phone number</label><br>
+            <input class="phone input" id="phone" type="number" name="phonenumber">
+            <i class="fa-solid fa-circle-exclamation icon"></i>
+            <p class="error">A phone number is required</p>
+          </div><br><br>
+          <div class="input-group">
+            <label for="msg">Message</label><br>
+            <textarea class="msg input" id="msg" name="message" placeholder=""></textarea>
+            <p class="error">A message is required</p>
+          </div><br><br>
+        </form>
+      </div>
+      <div class="send"><button class="send" disabled>Send</button></div>
+    </div>
+    <div class="clear"></div>
+  </section>
+  <!-- end contact section-->
+
+  <!--footer-->
+  <footer>
+    <div class="footer">
+      <div class="location">
+        <h4>LOCATION</h4><br>
+        <p>2215 John Daniel Drive Clark, MO 65243</p>
+      </div>
+      <div class="web">
+        <h4>AROUND THE WEB</h4><br><br>
+        <div class="icons">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-solid fa-basketball"></i></a>
+        </div>
+      </div>
+      <div class="freelancer">
+        <h4>ABOUT FREELANCER</h4><br>
+        <P>Freelance is a free to use, MIT licensed iti theme</P>
+        <p>created by<a href="url">iti students</a>.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="end-footer">
+    <p>Copyright &copy; Your Website 2021</p>
+  </div>
+  <!-- end footer -->
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
